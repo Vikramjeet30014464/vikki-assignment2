@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Contact Us</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <!--link to external css file-->
+        <script type="text/javascript" src="js/script.js"></script>
+        <!--link to external javascript file in js named folder-->
+</head>
+
+<body>
+        <div class="wrapper">
+                <div class="flex-continer1C">
+                        <div class="header">
+                                <h1>Greerton Cricket Club</h1>
+                        </div>
+                        <div class="navbar">
+                                <a href="home.html">Home </a>
+                                <a href="contact.html">Contact Us</a>
+                        </div>
+                        <div class="jumbo">
+                                <img src="images\contact.jpg" width="1900" height="350">
+                        </div>
+                </div>
+
+                <div class="formDiv">
+                        <h2>Please Enter Your Details</h2>
+                        <form class="form" id="usrform" method="post" name="form1" onsubmit="return validateForm()">
+
+                                <div class="message-area">
+                                        <label>Your Message: </label>
+                                        <textarea placeholder="Please Enter Your Message Here......" id="Message"
+                                                name="message" form="usrform"></textarea>
+                                </div>
+
+                                <div class="details-area">
+                                        <label>First Name:</label>
+                                        <input type="text" name="Fname" id="fname"
+                                                placeholder=" Enter Your First Name here">
+
+
+                                        <label>Last Name:</label>
+                                        <input type="text" name="Lname" id="lname"
+                                                placeholder=" Enter Your Last Name here">
+
+
+                                        <label>EmailID: </label>
+                                        <input type="Email" name="EmailID" id="emailID"
+                                                placeholder="Enter Your Email ID here">
+
+                                        <input type="submit" name="submit" id="submitButton">
+                                </div>
+                        </form>
+
+
+                </div>
+
+                <div class="output" id="output">
+                        <!--This div by default is hidden and it will show user-entered details once enabled by javascript on form submit-->
+                        <div class="output1">
+                                <h3><strong>You Entered :</strong></h3>
+                                <div>
+                                        <label>First Name:</label>&nbsp&nbsp&nbsp<span id="Fn"></span></br>
+                                </div>
+                                <div>
+                                        <label>Last Name:</label>&nbsp&nbsp&nbsp<span id="Ln"></span></br>
+                                </div>
+                                <div>
+                                        <label>Email:</label>&nbsp&nbsp&nbsp<span id="EmID"></span></br>
+                                </div>
+
+
+
+                        </div>
+                        <div class="output2">
+                                <label>Your Message:</label><span id="msg"></span>
+                        </div>
+
+                </div>
+
+                <div class="flex-container2c">
+                        <div class="LocateUs1">
+                                <h2>General Queries</h2>
+                                </br>
+                                Pemberton Park</br>
+                                Greerton Cricket Club</br>
+                                Danny Dyer (Cricket Operations Manager) </br>
+                                Phone:0403 494 788</br>
+                                Email:gppcclub@hotmail.com</br>
+                                Pemberton Park greerton Cricket Club</br>
+                                Mansels Street</br>
+                                Pemberton park, Parkvale, greerton,</br>
+                                Tauranga, Bay Of Plenty 3112</br>
+                                <hr>
+                        </div>
+                        <div class="LocateUs2">
+
+                                <h2>Business Queries</h2>
+                                </br>
+
+                                <p>Bay of Plenty Times - Bay of Plenty Times Weekend - bayofplentytimes.co.nz
+
+                                        A division of NZ Media & Entertainment
+                                        405 Cameron Road,
+                                        Tauranga.
+                                        <br>
+
+
+                                        www.bayofplentytimes.co.nz<br>
+                                        www.facebook.com/bayofplentytimes<br>
+                                        www.twitter.com/bay_times
+                                        <br>
+
+
+                                        Main Telephone and Classifieds: +64 7 577 7770
+                                        Katikati Advertiser
+                                        <br>
+
+
+                                        Editor: news@katikatiadvertiser.co.nz
+                                        Advertising: advertising@katikatiadvertiser.co.nz
+                                        Office: 07 549 0270<br>
+                                        <hr>
+
+
+                                </p>
+
+                        </div>
+                        <!--locateus2-->
+                </div>
+
+
+                <div class="footer">
+                        <strong>Copyright| Greerton Social Club. All Rights Reserved 2019</strong>.
+                </div>
+
+
+
+
+        </div>
+</body>
+
+</html>
